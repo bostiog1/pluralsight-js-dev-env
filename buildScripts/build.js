@@ -8,7 +8,7 @@ import chalk from 'chalk';
 process.env.NODE_ENV = 'production'; // this assures the Babel dev config doesn't apply.
 
 console.log(chalk.blue('Generating minified bundle for production. This will take a moment...'));
-
+// asdasdasfafavad
 webpack(webpackConfig).run((err, stats) => {
   if (err) { // so a fatal error occurred. Stop here.
     console.log(chalk.red(err));
